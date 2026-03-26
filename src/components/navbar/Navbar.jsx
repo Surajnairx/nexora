@@ -17,6 +17,7 @@ function Navbar() {
             {link.title}
           </Link>
         ))}
+        {console.log("Hello World")}
       </div>
     </nav>
   );
