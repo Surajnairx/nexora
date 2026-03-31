@@ -10,15 +10,17 @@ function Navbar() {
     { id: 6, title: "Dashboard", url: "/dashboard" },
   ];
   return (
-    <nav className="">
-      <div className="flex gap-10 justify-between">
+    <nav className="flex items-center p-3">
+      <div className="flex gap-10">
         {links.map((link) => (
-          <Link key={link.id} href={link.url}>
+          <Link className="flex text-center" key={link.id} href={link.url}>
             {link.title}
           </Link>
         ))}
-        {console.log("Hello World")}
       </div>
+      <button className="px-2 mx-3 border-2 border-cyan-500 cursor-pointer">
+        Logout
+      </button>
     </nav>
   );
 }

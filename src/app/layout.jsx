@@ -2,6 +2,7 @@ import "./globals.css";
 
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
+import Link from "next/link";
 
 export const metadata = {
   title: "Nexora",
@@ -13,11 +14,13 @@ export default function RootLayout({ children }) {
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col justify-between nexora-container">
         <header className="flex justify-between mt-7">
-          <h1 className="font-bold font-[Silkscreen] text-xl">nexora</h1>
+          <Link href="/" className="font-bold font-[Silkscreen] text-xl p-3">
+            nexora
+          </Link>
           <Navbar />
         </header>
 
-        <div className="nexora-container w-full">{children}</div>
+        <div className="nexora-container w-full text-center">{children}</div>
         <Footer />
       </body>
     </html>
