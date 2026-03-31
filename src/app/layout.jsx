@@ -13,14 +13,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col justify-between nexora-container">
-        <header className="flex justify-between mt-7">
+        <header className="mt-7 md:flex md:justify-between">
           <Link href="/" className="font-bold font-[Silkscreen] text-xl p-3">
             nexora
           </Link>
           <Navbar />
         </header>
 
-        <div className="nexora-container w-full text-center">{children}</div>
+        <div className="w-full text-center">{children}</div>
         <Footer />
       </body>
     </html>

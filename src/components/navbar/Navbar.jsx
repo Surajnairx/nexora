@@ -10,7 +10,7 @@ function Navbar() {
     { id: 6, title: "Dashboard", url: "/dashboard" },
   ];
   return (
-    <nav className="flex items-center p-3">
+    <nav className="md:flex items-center p-3 hidden">
       <div className="flex gap-10">
         {links.map((link) => (
           <Link className="flex text-center" key={link.id} href={link.url}>
@@ -18,7 +18,7 @@ function Navbar() {
           </Link>
         ))}
       </div>
-      <button className="px-2 mx-3 border-2 border-cyan-500 cursor-pointer">
+      <button className="px-2 mx-3  border border-cyan-500 rounded cursor-pointer hover:scale-[1.1] hover:transition-all">
         Logout
       </button>
     </nav>
