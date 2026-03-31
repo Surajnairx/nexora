@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import styles from "./navbar.module.css";
 function Navbar() {
   const links = [
     { id: 1, title: "Home", url: "/" },
@@ -10,8 +10,8 @@ function Navbar() {
     { id: 6, title: "Dashboard", url: "/dashboard" },
   ];
   return (
-    <nav className="bg-red-500">
-      <div className=" flex gap-10  justify-between nexora-container">
+    <nav className="">
+      <div className="flex gap-10 justify-between">
         {links.map((link) => (
           <Link key={link.id} href={link.url}>
             {link.title}
