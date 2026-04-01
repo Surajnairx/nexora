@@ -3,7 +3,7 @@ import React from "react";
 
 function page() {
   return (
-    <section className="flex items-center justify-center px-3 py-12 bg-black text-white">
+    <section className="flex items-center justify-center px-3 py-12 text-white">
       <div className="max-w-6xl w-full">
         <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-12">
           Let's Keep In Touch
