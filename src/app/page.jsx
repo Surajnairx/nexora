@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
           </button>
 
           <button className="px-5 py-2 border border-cyan-500 rounded hover:scale-[1.1] hover:transition-all cursor-pointer">
-            Contact Me
+            <Link href="/contact"> Contact Me</Link>
           </button>
         </div>
       </div>

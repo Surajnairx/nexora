@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default async function Page() {
   // await new Promise((res) => setTimeout(res, 2000));
   return (
@@ -70,7 +71,7 @@ export default async function Page() {
           </ul>
 
           <button className="px-6 py-2 bg-linear-to-r from-cyan-400 to-blue-500  rounded-lg hover:scale-[1.1] transition-all">
-            Get In Touch
+            <Link href="/contact"> Get In Touch</Link>
           </button>
         </div>
       </div>
