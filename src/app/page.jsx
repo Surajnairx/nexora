@@ -39,7 +39,7 @@ export default function Home() {
           height={500}
           src="/hero.png"
           alt="hero image"
-          className="object-contain"
+          className="object-contain animate-float"
         />
       </div>
     </div>
