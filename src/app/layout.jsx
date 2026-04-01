@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col justify-between nexora-container">
-        <header className="mt-7 md:flex md:justify-between">
+        <header className="mt-4 md:flex md:justify-between">
           <Link href="/" className="font-bold font-[Silkscreen] text-xl p-3">
             nexora
           </Link>
