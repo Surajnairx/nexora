@@ -29,7 +29,7 @@ export default async function Page() {
 
           <p className="text-gray-400 mb-4 leading-relaxed">
             Frontend developer specializing in{" "}
-            <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent font-medium">
+            <span className="bg-linear-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent font-medium">
               React & Next.js
             </span>
             , building modern, scalable, and user-focused web applications.
