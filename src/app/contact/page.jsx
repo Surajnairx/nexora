@@ -16,7 +16,7 @@ function page() {
               src="/contact.png"
               width={400}
               height={400}
-              className="rounded-2xl shadow-lg"
+              className="rounded-2xl shadow-lg animate-fade-in-scale"
               alt="contact"
             />
           </div>
